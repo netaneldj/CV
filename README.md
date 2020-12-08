@@ -1,1 +1,1 @@
-![\[fig:class01\]CV](images/CV.png)
+![\[fig:class01\]CV](images/cv-en.png)
