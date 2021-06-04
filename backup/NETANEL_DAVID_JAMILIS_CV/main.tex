@@ -1,0 +1,99 @@
+
+\documentclass[10pt,a4paper]{altacv}
+
+\geometry{left=1cm,right=9cm,marginparwidth=6.8cm,marginparsep=1.2cm,top=1cm,bottom=1cm}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[default]{lato}
+\usepackage{graphicx}
+\usepackage{hyperref}
+
+\definecolor{arsenic}{rgb}{0.23, 0.27, 0.29}
+\definecolor{SlateGrey}{HTML}{2E2E2E}
+\definecolor{LightGrey}{HTML}{1C1C1C}
+\colorlet{heading}{arsenic}
+\colorlet{accent}{arsenic}
+\colorlet{emphasis}{SlateGrey}
+\colorlet{body}{LightGrey}
+
+\renewcommand{\itemmarker}{{\small\textbullet}}
+\renewcommand{\ratingmarker}{\faCircle}
+
+%% sample.bib contains your publications
+\addbibresource{sample.bib}
+
+\begin{document}
+\name{NETANEL DAVID JAMILIS}
+\tagline{Desarrollador de software. Capaz de resolver problemas y optimizar resultados. Motivado para crecer profesionalmente y afrontar nuevos retos.}
+\photo{2.5cm}{netanel}
+\personalinfo{%
+  % Not all of these are required!
+  % You can add your own with \printinfo{symbol}{detail}
+  \email ~ \href{mailto:njamilis@fi.uba.ar}{njamilis@fi.uba.ar}
+  \hspace{0.5em}
+  \phone{(+54) 911-6175-936}
+  \hspace{0.5em}
+  \github ~ \href{https://github.com/netaneldj}{github/netaneldj}
+  \hspace{0.5em}
+  \linkedin ~ \href{http://www.linkedin.com/in/netaneldj}{netaneldj}
+}
+
+%% Make the header extend all the way to the right, if you want.
+\begin{fullwidth}
+\makecvheader
+\end{fullwidth}
+
+\cvsection[sidebar]{EXPERIENCIA LABORAL}
+
+\cvevent{Java Developer}{Globant}{Diciembre 2020 – Presente}{Buenos Aires, Argentina}
+\begin{itemize}
+\item \textbf {Tarea:} Desarrollo de plugins para el pre procesamiento e ingesta de datos. Implementación de las reglas de negocio. Despliegue del producto en la nube. Inducción de nuevos desarrolladores en el producto.
+ \item \textbf {Logros:} Los principales logros alcanzados son los siguientes:
+    \begin{itemize}
+    \item Reutilización de código para disminuir el tiempo de desarrollo del producto en un 90\%.
+    \item Disminución del tiempo de inducción de nuevos desarrolladores en un 50\%.
+  \end{itemize}
+ \item \textbf {Lenguajes:} Java
+ \item \textbf {Tecnologías:} Git, Google Cloud, Intellij, Maven, Swagger
+\end{itemize}
+
+\divider
+
+\cvevent{Software Developer}{Pymesoft Argentina}{Diciembre 2018 - Presente}{Buenos Aires, Argentina}
+\begin{itemize}
+\item \textbf {Tarea:} Desarrollo, mantenimiento y soporte técnico de los sistemas de control de personal y liquidación de sueldos.
+ \item \textbf {Logros:} Los principales logros alcanzados son los siguientes:
+    \begin{itemize}
+    \item Desarrollo de nuevo algoritmo de activación de relojes en el sistema de control de personal.
+    \item Incorporación de nuevos dispositivos compatibles al sistema de control de personal.
+    \item Exportación de reporte de asistencia del sistema de control de personal al sistema de liquidación de sueldos.
+    \item Desarrollo de nuevo algoritmo de activación de empresas en el sistema de liquidación de sueldos.
+    \item Exportación de liquidaciones de sueldo a F931 y libro de sueldos digital.
+  \end{itemize}
+ \item \textbf {Lenguajes:} Object Pascal, SQL
+ \item \textbf {Tecnologías:} Delphi, Firebird, Ultra VNC
+\end{itemize}
+
+
+\cvsection{EDUCACION}
+
+\cvevent{Ingeniero Informático}{Universidad de Buenos Aires}{Marzo 2015 - Presente}{Buenos Aires, Argentina}
+Actualmente cursando los últimos años de la carrera con orientación en gestión industrial de sistemas
+
+\divider
+
+\cvevent{Técnico Electrónico}{Escuela Técnica ORT}{Marzo 2009 - Diciembre 2014}{Buenos Aires, Argentina}
+Bachiller Técnico con Orientación en Electrónica
+
+\clearpage
+
+%% If the NEXT page doesn't start with a \cvsection but you'd
+%% still like to add a sidebar, then use this command on THIS
+%% page to add it. The optional argument lets you pull up the 
+%% sidebar a bit so that it looks aligned with the top of the
+%% main column.
+% \addnextpagesidebar[-1ex]{page3sidebar}
+
+
+\end{document}

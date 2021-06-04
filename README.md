@@ -1,1 +1,1 @@
-![\[fig:class01\]CV](images/cv-en.png)
+![\[fig:class01\]CV](images/NETANEL_DAVID_JAMILIS_CV.png)
